@@ -1,0 +1,88 @@
+.header {
+    width: 96%;
+    padding: .5rem 0;
+    // background-color: aqua;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.box {
+    width: 100%;
+    padding: .5rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    .msgMain {
+        width: 100%;
+        // background-color: aqua;
+        display: block;
+        position: relative;
+
+        .toUser {
+            width: 2.75rem;
+        }
+
+        .text {
+            position: relative;
+            float: left;
+            font-size: 1rem;
+            line-height: 1.2rem;
+
+            .fromMessage {
+                max-width: 13.8rem;
+                position: relative;
+                right: .5rem;
+                background-color: aquamarine;
+                border-radius: .5rem;
+                padding: .7rem 1rem;
+                text-align: left;
+            }
+
+            .fromMessage::before {
+                content: '';
+                position: absolute;
+                border: 8px solid;
+                border-color: transparent transparent transparent lightblue;
+                right: -1rem;
+                top: .8rem;
+            }
+
+            .toMessage {
+                max-width: 13.8rem;
+                position: relative;
+                margin-left: .6rem;
+                background-color: aquamarine;
+                width: 90%;
+                padding: .7rem .4rem;
+                border-radius: .5rem;
+            }
+
+            .toMessage::before {
+                content: '';
+                position: absolute;
+                border: 8px solid;
+                border-color: transparent lightblue transparent transparent;
+                left: -1rem;
+                top: .8rem;
+            }
+        }
+
+    }
+
+}
+
+.input {
+    width: 100%;
+    padding: .5rem .5rem;
+    position: fixed;
+    bottom: 0;
+    // background-color: aqua;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

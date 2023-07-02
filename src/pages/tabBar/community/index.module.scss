@@ -1,0 +1,66 @@
+.head {
+    width: 100%;
+    height: 30px;
+    background-color: cornflowerblue;
+}
+
+.tab {
+    width: auto;
+    height: auto;
+    background-color: rgb(218, 218, 218);
+    float: left;
+}
+
+.overlayContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    text-align: left;
+
+    .header {
+        margin-top: 0.5rem;
+        width: 100%;
+        height: 1rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+    .content {
+        // width: 100%;
+        display: flex;
+        padding: 1rem 1rem;
+        justify-content: space-between;
+
+        :global(.adm-radio) {
+            width: 100%;
+            // display: flex;
+            // justify-content: space-between;
+        }
+    }
+
+    .footer {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        bottom: 0;
+    }
+}
+
+:global(.rdw-editor-toolbar){
+    display: none;
+}
+
+:global(.DraftEditor-root){
+    text-align: left;
+}
+
+:global(.adm-form-item-label){
+    text-align: left;
+}
+
+.foot{
+    width: 100%;
+    height: 2rem;
+}

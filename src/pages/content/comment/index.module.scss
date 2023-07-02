@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.box{
+    .user {
+        width: 100%;
+        // background-color: aqua;
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+
+        .header {
+            width: 3rem;
+            height: 3rem;
+            // background-color: burlywood;
+            float: left;
+        }
+
+        .username {
+            float: left;
+            font-size: 1.5rem;
+        }
+    }
+    .text{
+        padding: .5rem 0 .5rem 3rem;
+        text-align: left;
+        // background-color: red;
+    }
+}
+
+.foot{
+    margin-top: 2rem;
+    width: 100%;
+    height: .6rem;
+    // background-color: red;
+}

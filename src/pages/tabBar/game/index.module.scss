@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    padding: .5rem 0;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title{
+        width: 6rem;
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+    .type{
+        width: 7rem;
+        // background-color: antiquewhite;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.body{
+    .name{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    :global(.adm-list-item-description){
+        text-align: left;
+    }
+}

@@ -1,0 +1,94 @@
+.img {
+    width: 100%;
+    height: 200px;
+    // background-color: aquamarine;
+}
+
+.body {
+    // width: 100%;
+    padding: 0 .5rem;
+
+    .title {
+        width: 100%;
+        text-align: left;
+        // background-color: red;
+        background-color: rgb(226, 226, 226);
+    }
+
+    .auther {
+        width: 100%;
+        // background-color: aqua;
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+
+        .header {
+            width: 3rem;
+            height: 3rem;
+            // background-color: burlywood;
+            float: left;
+        }
+
+        .username {
+            float: left;
+            font-size: 1.5rem;
+        }
+    }
+
+    .tag {
+        padding: .5rem 0;
+        text-align: left;
+    }
+
+    .footer {
+        width: 100%;
+        text-align: right;
+
+        div {
+            margin-top: .5rem;
+        }
+    }
+}
+
+.foot{
+    margin-top: 2rem;
+    width: 100%;
+    height: .6rem;
+    // background-color: red;
+}
+
+.comment{
+    height: 100%;
+}
+
+.bing {
+    display: flex;
+    justify-content: space-around;
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        // color: aqua;
+    }
+}
+
+.tarBar{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    // background-color: red;
+    background-color: rgb(226, 226, 226);
+    .comment{
+        height: 100%;
+    }
+}
+
+.textComment{
+    padding: .5rem;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    // background-color: cornflowerblue;
+}
